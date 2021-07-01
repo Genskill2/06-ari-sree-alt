@@ -25,7 +25,7 @@ if(score>14){
 return GradeLevel[13];
 }
 else if (score==0){
-return"NULL",
+return"NULL";
 }
 else{
 return GradeLevel[score-1];
@@ -43,7 +43,7 @@ return charcters;
 count no_of_words(string paragraph){
 int words=0;
 for(inti=0;i<strlen(paragraph);i++){
-if(paragraph[i]=="){
+if(paragraph[i]==''){
 words++;
 }
 }
