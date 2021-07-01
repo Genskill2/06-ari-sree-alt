@@ -5,7 +5,7 @@
 #include<assert.h>
 #include<cs50.h>
 
-typedef int count;
+typedef int count;  
 string ari(string paragraph){
 
 count no_of_characters(string);
@@ -52,7 +52,7 @@ return words;
 count no_of_sentences(string paragraph){
 int sentences=0;
 for(inti=0;i<strlen(paragraph);i++){
-if((paragraph[i]=='.'//paragraph[i]=='?'//paragraph[i]=='!'){
+if((paragraph[i]=='.'||paragraph[i]=='?'||paragraph[i]=='!'){
 sentences++;
 }
 }
